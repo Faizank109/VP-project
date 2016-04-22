@@ -34,11 +34,13 @@ namespace vpprojectPrototype
             button33.BackColor = Color.Black;
             button36.BackColor = Color.Black;
             
+            
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-           
+            button15.BackColor = Color.White;
+            timer1.Start();
         }
 
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
@@ -154,7 +156,39 @@ namespace vpprojectPrototype
             button63.BackColor = Control.DefaultBackColor;
             button64.BackColor = Control.DefaultBackColor;
             button65.BackColor = Control.DefaultBackColor;
-            
+            button15.BackColor = Color.Black;
+            button16.BackColor = Color.Black;
+            button17.BackColor = Color.Black;
+            button18.BackColor = Color.Black;
+            button19.BackColor = Color.Black;
+            button20.BackColor = Color.Black;
+            button21.BackColor = Color.Black;
+            button22.BackColor = Color.Black;
+            button23.BackColor = Color.Black;
+            button26.BackColor = Color.Black;
+            button30.BackColor = Color.Black;
+            button33.BackColor = Color.Black;
+            button36.BackColor = Color.Black;
+            button66.BackColor = Color.Black;
+            button67.BackColor = Color.Black;
+            button68.BackColor = Color.Black;
+            button69.BackColor = Color.Black;
+            button70.BackColor = Color.Black;
+            button71.BackColor = Color.Black;
+            button72.BackColor = Color.Black;
+            button73.BackColor = Color.Black;
+            button74.BackColor = Color.Black;
+            button75.BackColor = Color.Black;
+            button76.BackColor = Color.Black;
+            button77.BackColor = Color.Black;
+            button78.BackColor = Color.Black;
+            button79.BackColor = Color.Black;
+            button80.BackColor = Color.Black;
+            button81.BackColor = Color.Black;
+            button82.BackColor = Color.Black;
+            button83.BackColor = Color.Black;
+            button84.BackColor = Color.Black;
+            button85.BackColor = Color.Black;
         }
 
 
@@ -421,6 +455,198 @@ namespace vpprojectPrototype
         private void button65_Click(object sender, EventArgs e)
         {
             button65.BackColor = Color.RoyalBlue;
+            timer1.Start();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            button16.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            button17.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            button18.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            button19.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            button20.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            button21.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            button22.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            button23.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            button26.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            button30.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            button33.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            button36.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button66_Click(object sender, EventArgs e)
+        {
+            button66.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button67_Click(object sender, EventArgs e)
+        {
+            button67.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button68_Click(object sender, EventArgs e)
+        {
+            button68.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button69_Click(object sender, EventArgs e)
+        {
+            button69.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button70_Click(object sender, EventArgs e)
+        {
+            button70.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button71_Click(object sender, EventArgs e)
+        {
+            button71.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button72_Click(object sender, EventArgs e)
+        {
+            button72.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button73_Click(object sender, EventArgs e)
+        {
+            button73.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button74_Click(object sender, EventArgs e)
+        {
+            button74.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button75_Click(object sender, EventArgs e)
+        {
+            button75.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button76_Click(object sender, EventArgs e)
+        {
+            button76.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button77_Click(object sender, EventArgs e)
+        {
+            button77.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button78_Click(object sender, EventArgs e)
+        {
+            button78.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button79_Click(object sender, EventArgs e)
+        {
+            button79.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button80_Click(object sender, EventArgs e)
+        {
+            button80.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button81_Click(object sender, EventArgs e)
+        {
+            button81.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button82_Click(object sender, EventArgs e)
+        {
+            button82.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button83_Click(object sender, EventArgs e)
+        {
+            button83.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button84_Click(object sender, EventArgs e)
+        {
+            button84.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button85_Click(object sender, EventArgs e)
+        {
+            button85.BackColor = Color.White;
             timer1.Start();
         }
     }
