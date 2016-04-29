@@ -189,6 +189,8 @@ namespace vpprojectPrototype
             button83.BackColor = Color.Black;
             button84.BackColor = Color.Black;
             button85.BackColor = Color.Black;
+            button86.BackColor = Color.Black;
+            button87.BackColor = Color.Black;
         }
 
 
@@ -197,48 +199,58 @@ namespace vpprojectPrototype
         {
             
             button2.BackColor = Color.RoyalBlue;
+            
             timer1.Start();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             button3.BackColor = Color.RoyalBlue;
+            
             timer1.Start();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             button4.BackColor = Color.RoyalBlue;
+            
             timer1.Start();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             button5.BackColor = Color.RoyalBlue;
+            
             timer1.Start();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             button6.BackColor = Color.RoyalBlue;
+            System.Media.SoundPlayer s = new System.Media.SoundPlayer();
+            
             timer1.Start();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             button7.BackColor = Color.RoyalBlue;
+           
+          
             timer1.Start();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             button8.BackColor = Color.RoyalBlue;
+           
             timer1.Start();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
             button9.BackColor = Color.RoyalBlue;
+            
             timer1.Start();
         }
 
@@ -287,43 +299,77 @@ namespace vpprojectPrototype
         private void button27_Click(object sender, EventArgs e)
         {
             button27.BackColor = Color.RoyalBlue;
+            System.Media.SoundPlayer s = new System.Media.SoundPlayer();
+            s.SoundLocation = "C:\\wav-piano-sound-master\\wav\\c1.wav";
+            s.Load();
+            s.Play();
+         
             timer1.Start();
         }
 
         private void button28_Click(object sender, EventArgs e)
         {
             button28.BackColor = Color.RoyalBlue;
+            System.Media.SoundPlayer s = new System.Media.SoundPlayer();
+            s.SoundLocation = "C:\\wav-piano-sound-master\\wav\\d1.wav";
+            s.Load();
+            s.Play();
             timer1.Start();
+            
         }
 
         private void button29_Click(object sender, EventArgs e)
         {
             button29.BackColor = Color.RoyalBlue;
+            //button5.BackColor = Color.RoyalBlue;
+            System.Media.SoundPlayer s = new System.Media.SoundPlayer();
+            s.SoundLocation = "C:\\wav-piano-sound-master\\wav\\e1.wav";
+            s.Load();
+            s.Play();
             timer1.Start();
         }
 
         private void button31_Click(object sender, EventArgs e)
         {
             button31.BackColor = Color.RoyalBlue;
+            System.Media.SoundPlayer s = new System.Media.SoundPlayer();
+            s.SoundLocation = "C:\\wav-piano-sound-master\\wav\\f1.wav";
+            s.Load();
+            s.Play();
+            timer1.Start();
             timer1.Start();
         }
 
         private void button32_Click(object sender, EventArgs e)
         {
             button32.BackColor = Color.RoyalBlue;
-            timer1.Start();
+            System.Media.SoundPlayer s = new System.Media.SoundPlayer();
+            s.SoundLocation = "C:\\wav-piano-sound-master\\wav\\g1.wav";
+            s.Load();
+            s.Play();
+           timer1.Start();
         }
 
         private void button34_Click(object sender, EventArgs e)
         {
             button34.BackColor = Color.RoyalBlue;
+            System.Media.SoundPlayer s = new System.Media.SoundPlayer();
+            s.SoundLocation = "C:\\wav-piano-sound-master\\wav\\a1.wav";
+            s.Load();
+            s.Play();
+
             timer1.Start();
         }
 
         private void button35_Click(object sender, EventArgs e)
         {
             button35.BackColor = Color.RoyalBlue;
+            System.Media.SoundPlayer s = new System.Media.SoundPlayer();
+            s.SoundLocation = "C:\\wav-piano-sound-master\\wav\\b1.wav";
+            s.Load();
+            s.Play();
             timer1.Start();
+            
         }
 
         private void button37_Click(object sender, EventArgs e)
@@ -515,24 +561,44 @@ namespace vpprojectPrototype
         private void button30_Click(object sender, EventArgs e)
         {
             button30.BackColor = Color.White;
+            System.Media.SoundPlayer s = new System.Media.SoundPlayer();
+            s.SoundLocation = "C:\\wav-piano-sound-master\\wav\\c1s.wav";
+            s.Load();
+            s.Play();
+
+            
             timer1.Start();
         }
 
         private void button33_Click(object sender, EventArgs e)
         {
             button33.BackColor = Color.White;
+            System.Media.SoundPlayer s = new System.Media.SoundPlayer();
+            s.SoundLocation = "C:\\wav-piano-sound-master\\wav\\f1s.wav";
+            s.Load();
+            s.Play();
+
+         
             timer1.Start();
         }
 
         private void button36_Click(object sender, EventArgs e)
         {
             button36.BackColor = Color.White;
+            System.Media.SoundPlayer s = new System.Media.SoundPlayer();
+            s.SoundLocation = "C:\\wav-piano-sound-master\\wav\\a1s.wav";
+            s.Load();
+            s.Play();
+
+          
             timer1.Start();
         }
 
         private void button66_Click(object sender, EventArgs e)
         {
             button66.BackColor = Color.White;
+          
+           
             timer1.Start();
         }
 
@@ -648,6 +714,27 @@ namespace vpprojectPrototype
         {
             button85.BackColor = Color.White;
             timer1.Start();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button86_Click(object sender, EventArgs e)
+        {
+            button86.BackColor = Color.White;
+            timer1.Start();
+        }
+
+        private void button87_Click(object sender, EventArgs e)
+        {
+            button87.BackColor = Color.White;
+            System.Media.SoundPlayer s = new System.Media.SoundPlayer();
+            s.SoundLocation = "C:\\wav-piano-sound-master\\wav\\d1s.wav";
+            s.Load();
+            s.Play();
+            timer1.Start(); 
         }
     }
 }

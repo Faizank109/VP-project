@@ -122,6 +122,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.button86 = new System.Windows.Forms.Button();
+            this.button87 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -387,7 +389,7 @@
             // 
             this.button26.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button26.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button26.Location = new System.Drawing.Point(832, 12);
+            this.button26.Location = new System.Drawing.Point(782, 12);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(36, 170);
             this.button26.TabIndex = 25;
@@ -428,7 +430,7 @@
             // 
             this.button30.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button30.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button30.Location = new System.Drawing.Point(942, 12);
+            this.button30.Location = new System.Drawing.Point(938, 13);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(36, 170);
             this.button30.TabIndex = 29;
@@ -490,7 +492,7 @@
             // 
             this.button36.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button36.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button36.Location = new System.Drawing.Point(1224, 12);
+            this.button36.Location = new System.Drawing.Point(1170, 13);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(36, 170);
             this.button36.TabIndex = 35;
@@ -791,7 +793,7 @@
             // 
             this.button66.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button66.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button66.Location = new System.Drawing.Point(1335, 12);
+            this.button66.Location = new System.Drawing.Point(1229, 13);
             this.button66.Name = "button66";
             this.button66.Size = new System.Drawing.Size(36, 170);
             this.button66.TabIndex = 65;
@@ -1021,6 +1023,7 @@
             this.label1.Size = new System.Drawing.Size(389, 23);
             this.label1.TabIndex = 85;
             this.label1.Text = "Octave 1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -1088,14 +1091,36 @@
             this.label7.TabIndex = 91;
             this.label7.Text = "Octave 7";
             // 
+            // button86
+            // 
+            this.button86.BackColor = System.Drawing.Color.Black;
+            this.button86.Location = new System.Drawing.Point(838, 12);
+            this.button86.Name = "button86";
+            this.button86.Size = new System.Drawing.Size(35, 170);
+            this.button86.TabIndex = 92;
+            this.button86.UseVisualStyleBackColor = false;
+            this.button86.Click += new System.EventHandler(this.button86_Click);
+            // 
+            // button87
+            // 
+            this.button87.BackColor = System.Drawing.Color.Black;
+            this.button87.Location = new System.Drawing.Point(993, 13);
+            this.button87.Name = "button87";
+            this.button87.Size = new System.Drawing.Size(39, 170);
+            this.button87.TabIndex = 93;
+            this.button87.UseVisualStyleBackColor = false;
+            this.button87.Click += new System.EventHandler(this.button87_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(10, 100);
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1370, 402);
+            this.BackColor = System.Drawing.Color.Teal;
+            this.ClientSize = new System.Drawing.Size(1362, 410);
+            this.Controls.Add(this.button87);
+            this.Controls.Add(this.button86);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -1189,7 +1214,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "F7";
+            this.Text = "FAIZAN REAL PIANO APPLICATION";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
@@ -1290,6 +1315,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button86;
+        private System.Windows.Forms.Button button87;
     }
 }
 
