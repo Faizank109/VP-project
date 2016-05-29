@@ -18,6 +18,9 @@ using System.Diagnostics;
 
 namespace vpprojectPrototype
 {
+    //******Important  note******** :
+    //all  the  file and  directory paths  
+    //are  set  according  to  the  system  in  which  this  program  was  developed//
     public partial class Form1 : Form
     {
        // [DllImport("winmm.dll", EntryPoint = "mciSendStringA", ExactSpelling = true, CharSet = CharSet.Ansi, SetLastError = true)]
